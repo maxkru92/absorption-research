@@ -14,8 +14,5 @@
     "absorption-research.vercel.app"
   ],
   "author": "Krupp Capital",
-  "license": "UNLICENSED",
-  "engines": {
-    "node": ">=14"
-  }
+  "license": "UNLICENSED"
 }
