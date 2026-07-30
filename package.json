@@ -1,0 +1,21 @@
+{
+  "name": "kc-absorption-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Krupp Capital site scaffold \u2014 purple (#9D4EDD\u2192#7B3DBA) on absorption-research.vercel.app.",
+  "scripts": {
+    "dev": "npx serve public -l 3000",
+    "build": "echo \"no build step \u2014 public/ is the deployable\"",
+    "preview": "npx serve public -l 4173",
+    "kc:deploy": "cd \"/Users/maximiliankrupp/Desktop/kc-favicon-pack\" && python3 deploy.py --sites=absorption-research",
+    "kc:list": "cd \"/Users/maximiliankrupp/Desktop/kc-favicon-pack\" && python3 deploy.py --list-sites"
+  },
+  "keywords": [
+    "krupp-capital",
+    "favicon-pack",
+    "purple",
+    "absorption-research.vercel.app"
+  ],
+  "author": "Krupp Capital",
+  "license": "UNLICENSED"
+}
